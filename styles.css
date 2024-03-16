@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.background{
+    background-color: beige;
+}
+
+/* Example of media query for small screens (mobile) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for small screens */
+}
+
+
+.container {
+    max-width: 1200px; /* Increased container width */
+    margin: 20px auto;
+    background-color: #f2edf7;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #5a42f5;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.input-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: calc(33.3% - 5px);
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'DM Sans', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5a42f5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+button:hover {
+    background-color: #4d38d6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Changed background color to white */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.overdue {
+    color: red;
+    font-weight: bold;
+}
